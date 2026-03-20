@@ -1,691 +1,792 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node2" apprev="21010" hassounds="1" appversion="7.1.11">
-  <panorama id="node2">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+<tour appversion="7.1.11" start="node2" hassounds="1" apprev="21010">
+  <panorama id="node2" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="127.471" fovmode="2">
-      <start tilt="-84.12" fov="130" pan="2.78" projection="4"/>
-      <flyin tilt="-90" fov="360" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="127.471">
+      <start projection="4" pan="2.78" fov="130" tilt="-84.12"/>
+      <flyin projection="9" pan="0" fov="360" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 19:46:16" source="" info="" latitude="-23.57364009" comment="" heading="127.471" author="" nodeid="node2" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66049182"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node3}" pan="3.93135" distance="6.46826" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57364009" description="" source="" longitude="-46.66049182" author="" copyright="" comment="" nodeid="node2" datetime="2026:03:19 19:46:16" heading="127.471" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="6.46826" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="3.93135" tilt="0" url="{node3}"/>
     </hotspots>
     <media>
-      <sound tilt="-1.000" startmutedmobile="0" pan="-1.000" mode="0" tiltsize="10.000" nodechangekeep="1" level="1.000" loop="1" ambientlevel="0.000" field="90.000" pansize="10.000" id="_background">
-        <source url="media/narra��o.mp3" mono="0"/>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+        <source mono="0" url="media/narra��o.mp3"/>
       </sound>
     </media>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node3">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node3" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-230.867" fovmode="2">
-      <start tilt="-77.49" fov="130" pan="-6.71" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-230.867">
+      <start projection="4" pan="-6.71" fov="130" tilt="-77.49"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 19:46:16" source="" info="" latitude="-23.57367223" comment="" heading="-230.867" author="" nodeid="node3" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66043892"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node2}" pan="-174.407" distance="6.46826" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node21}" pan="-354.425" distance="4.72318" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57367223" description="" source="" longitude="-46.66043892" author="" copyright="" comment="" nodeid="node3" datetime="2026:03:19 19:46:16" heading="-230.867" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="6.46826" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-174.407" tilt="0" url="{node2}"/>
+      <hotspot distance="4.72318" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-354.425" tilt="0" url="{node21}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node21">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node21" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-213.703" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-213.703">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:35:09" source="" info="" latitude="-23.57369571" comment="" heading="-213.703" author="" nodeid="node21" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66040030"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node3}" pan="-157.261" distance="4.72318" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node22}" pan="-349.143" distance="6.18619" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57369571" description="" source="" longitude="-46.66040030" author="" copyright="" comment="" nodeid="node21" datetime="2026:03:19 20:35:09" heading="-213.703" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="4.72318" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-157.261" tilt="0" url="{node3}"/>
+      <hotspot distance="6.18619" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-349.143" tilt="0" url="{node22}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node22">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node22" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-237.466" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-237.466">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="19/03/2026 20:42" source="" info="" latitude="-23.57373535" comment="" heading="-237.466" author="" nodeid="node22" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66035771"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node21}" pan="-192.906" distance="6.18619" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node23}" pan="-66.2005" distance="4.10061" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57373535" description="" source="" longitude="-46.66035771" author="" copyright="" comment="" nodeid="node22" datetime="19/03/2026 20:42" heading="-237.466" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="6.18619" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-192.906" tilt="0" url="{node21}"/>
+      <hotspot distance="4.10061" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-66.2005" tilt="0" url="{node23}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node23">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node23" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="86.4524" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="86.4524">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:35:08" source="" info="" latitude="-23.57377180" comment="" heading="86.4524" author="" nodeid="node23" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66036382"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node22}" pan="77.7179" distance="4.10061" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node24}" pan="-7.69881" distance="5.65278" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57377180" description="" source="" longitude="-46.66036382" author="" copyright="" comment="" nodeid="node23" datetime="2026:03:19 20:35:08" heading="86.4524" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="4.10061" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="77.7179" tilt="0" url="{node22}"/>
+      <hotspot distance="5.65278" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-7.69881" tilt="0" url="{node24}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node24">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node24" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-91.0216" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-91.0216">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:35:09" source="" info="" latitude="-23.57377548" comment="" heading="-91.0216" author="" nodeid="node24" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66030850"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node23}" pan="-5.17278" distance="5.65278" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node25}" pan="-113.333" distance="5.76088" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57377548" description="" source="" longitude="-46.66030850" author="" copyright="" comment="" nodeid="node24" datetime="2026:03:19 20:35:09" heading="-91.0216" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.65278" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-5.17278" tilt="0" url="{node23}"/>
+      <hotspot distance="5.76088" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-113.333" tilt="0" url="{node25}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node26">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node26" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-226.081" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-226.081">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:37:01" source="" info="" latitude="-23.57373584" comment="" heading="-226.081" author="" nodeid="node26" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66033063"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node25}" pan="-304.359" distance="4.53712" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57373584" description="" source="" longitude="-46.66033063" author="" copyright="" comment="" nodeid="node26" datetime="2026:03:19 20:37:01" heading="-226.081" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="4.53712" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-304.359" tilt="0" url="{node25}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node25">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node25" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="0">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:35:10" source="" info="" latitude="-23.57372755" comment="" heading="0" author="" nodeid="node25" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66028704"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node24}" pan="157.688" distance="5.76088" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node26}" pan="101.722" distance="4.53712" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
-      <hotspot tilt="0" url="{node27}" pan="20.6901" distance="5.22393" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point03"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57372755" description="" source="" longitude="-46.66028704" author="" copyright="" comment="" nodeid="node25" datetime="2026:03:19 20:35:10" heading="0" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.76088" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="157.688" tilt="0" url="{node24}"/>
+      <hotspot distance="4.53712" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="101.722" tilt="0" url="{node26}"/>
+      <hotspot distance="5.22393" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point03" pan="20.6901" tilt="0" url="{node27}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node27">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node27" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-32.8572" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-32.8572">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:36:41" source="" info="" latitude="-23.57368360" comment="" heading="-32.8572" author="" nodeid="node27" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66030515"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node25}" pan="-192.167" distance="5.22393" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node1}" pan="-13.3746" distance="5.94342" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57368360" description="" source="" longitude="-46.66030515" author="" copyright="" comment="" nodeid="node27" datetime="2026:03:19 20:36:41" heading="-32.8572" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.22393" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-192.167" tilt="0" url="{node25}"/>
+      <hotspot distance="5.94342" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-13.3746" tilt="0" url="{node1}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node1">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node1" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-18.9715" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-18.9715">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:36:39" source="" info="" latitude="-23.57363321" comment="" heading="-18.9715" author="" nodeid="node1" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66032460"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node27}" pan="-179.489" distance="5.94342" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node4}" pan="-94.1867" distance="5.7604" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57363321" description="" source="" longitude="-46.66032460" author="" copyright="" comment="" nodeid="node1" datetime="2026:03:19 20:36:39" heading="-18.9715" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.94342" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-179.489" tilt="0" url="{node27}"/>
+      <hotspot distance="5.7604" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-94.1867" tilt="0" url="{node4}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node4">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node4" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="0">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:37:01" source="" info="" latitude="-23.57361999" comment="" heading="0" author="" nodeid="node4" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66026995"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node1}" pan="104.785" distance="5.7604" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node5}" pan="-0.738665" distance="5.29665" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57361999" description="" source="" longitude="-46.66026995" author="" copyright="" comment="" nodeid="node4" datetime="2026:03:19 20:37:01" heading="0" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.7604" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="104.785" tilt="0" url="{node1}"/>
+      <hotspot distance="5.29665" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-0.738665" tilt="0" url="{node5}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node5">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node5" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-15.6113" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-15.6113">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:38:15" source="" info="" latitude="-23.57357236" comment="" heading="-15.6113" author="" nodeid="node5" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66026928"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node4}" pan="163.65" distance="5.29665" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node6}" pan="59.9184" distance="5.46902" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
-      <hotspot tilt="0" url="{node13}" pan="-13.1846" distance="8.85795" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point03"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57357236" description="" source="" longitude="-46.66026928" author="" copyright="" comment="" nodeid="node5" datetime="2026:03:19 20:38:15" heading="-15.6113" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.29665" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="163.65" tilt="0" url="{node4}"/>
+      <hotspot distance="5.46902" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="59.9184" tilt="0" url="{node6}"/>
+      <hotspot distance="8.85795" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point03" pan="-13.1846" tilt="0" url="{node13}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node6">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node6" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-112.007" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-112.007">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:38:13" source="" info="" latitude="-23.57356007" comment="" heading="-112.007" author="" nodeid="node6" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66032124"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node5}" pan="-216.477" distance="5.46902" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node10}" pan="-126.232" distance="5.14713" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
-      <hotspot tilt="0" url="{node7}" pan="-18.4784" distance="5.54656" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point03"/>
-      <hotspot tilt="0" url="{node9}" pan="-66.0411" distance="5.70303" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point04"/>
-      <hotspot tilt="0" url="{node11}" pan="-180.12" distance="4.49214" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point05"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57356007" description="" source="" longitude="-46.66032124" author="" copyright="" comment="" nodeid="node6" datetime="2026:03:19 20:38:13" heading="-112.007" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.46902" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-216.477" tilt="0" url="{node5}"/>
+      <hotspot distance="5.14713" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-126.232" tilt="0" url="{node10}"/>
+      <hotspot distance="5.54656" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point03" pan="-18.4784" tilt="0" url="{node7}"/>
+      <hotspot distance="5.70303" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point04" pan="-66.0411" tilt="0" url="{node9}"/>
+      <hotspot distance="4.49214" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point05" pan="-180.12" tilt="0" url="{node11}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node7">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node7" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-101.991" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-101.991">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:38:16" source="" info="" latitude="-23.57356314" comment="" heading="-101.991" author="" nodeid="node7" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66037556"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node6}" pan="-188.462" distance="5.54656" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node8}" pan="-281.564" distance="4.64697" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57356314" description="" source="" longitude="-46.66037556" author="" copyright="" comment="" nodeid="node7" datetime="2026:03:19 20:38:16" heading="-101.991" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.54656" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-188.462" tilt="0" url="{node6}"/>
+      <hotspot distance="4.64697" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-281.564" tilt="0" url="{node8}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node9">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node9" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-286.679" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-286.679">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:39:34" source="" info="" latitude="-23.57352442" comment="" heading="-286.679" author="" nodeid="node9" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66036147"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node10}" pan="-365.86" distance="5.46191" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node6}" pan="-420.713" distance="5.70303" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57352442" description="" source="" longitude="-46.66036147" author="" copyright="" comment="" nodeid="node9" datetime="2026:03:19 20:39:34" heading="-286.679" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.46191" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-365.86" tilt="0" url="{node10}"/>
+      <hotspot distance="5.70303" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-420.713" tilt="0" url="{node6}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node10">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node10" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-279.871" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-279.871">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:39:34" source="" info="" latitude="-23.57351520" comment="" heading="-279.871" author="" nodeid="node10" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66030883"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node6}" pan="-114.096" distance="5.14713" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node9}" pan="-179.052" distance="5.46191" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57351520" description="" source="" longitude="-46.66030883" author="" copyright="" comment="" nodeid="node10" datetime="2026:03:19 20:39:34" heading="-279.871" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.14713" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-114.096" tilt="0" url="{node6}"/>
+      <hotspot distance="5.46191" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-179.052" tilt="0" url="{node9}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node11">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node11" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-293.103" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-293.103">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:39:34" source="" info="" latitude="-23.57354501" comment="" heading="-293.103" author="" nodeid="node11" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66028034"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node6}" pan="-181.216" distance="4.49214" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57354501" description="" source="" longitude="-46.66028034" author="" copyright="" comment="" nodeid="node11" datetime="2026:03:19 20:39:34" heading="-293.103" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="4.49214" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-181.216" tilt="0" url="{node6}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node13">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node13" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-17.4721" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-17.4721">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:39:44" source="" info="" latitude="-23.57349277" comment="" heading="-17.4721" author="" nodeid="node13" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66027296"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node5}" pan="-195.045" distance="8.85795" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node14}" pan="81.2233" distance="5.87673" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
-      <hotspot tilt="0" url="{node16}" pan="4.27812" distance="6.3642" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point03"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57349277" description="" source="" longitude="-46.66027296" author="" copyright="" comment="" nodeid="node13" datetime="2026:03:19 20:39:44" heading="-17.4721" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="8.85795" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-195.045" tilt="0" url="{node5}"/>
+      <hotspot distance="5.87673" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="81.2233" tilt="0" url="{node14}"/>
+      <hotspot distance="6.3642" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point03" pan="4.27812" tilt="0" url="{node16}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node14">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node14" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-31.8884" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-31.8884">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:41:55" source="" info="" latitude="-23.57350076" comment="" heading="-31.8884" author="" nodeid="node14" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66032996"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node13}" pan="-113.193" distance="5.87673" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node15}" pan="-10.0878" distance="6.07303" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57350076" description="" source="" longitude="-46.66032996" author="" copyright="" comment="" nodeid="node14" datetime="2026:03:19 20:41:55" heading="-31.8884" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.87673" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-113.193" tilt="0" url="{node13}"/>
+      <hotspot distance="6.07303" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-10.0878" tilt="0" url="{node15}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node8">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node8" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-203.191" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-203.191">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:38:13" source="" info="" latitude="-23.57360493" comment="" heading="-203.191" author="" nodeid="node8" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66037522"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node7}" pan="-202.764" distance="4.64697" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57360493" description="" source="" longitude="-46.66037522" author="" copyright="" comment="" nodeid="node8" datetime="2026:03:19 20:38:13" heading="-203.191" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="4.64697" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-202.764" tilt="0" url="{node7}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node15">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node15" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-34.1813" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-34.1813">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:41:55" source="" info="" latitude="-23.57345005" comment="" heading="-34.1813" author="" nodeid="node15" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66035209"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node14}" pan="-192.381" distance="6.07303" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node16}" pan="-112.682" distance="5.82314" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
-      <hotspot tilt="0" url="{node17}" pan="-43.77" distance="5.33517" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point03"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57345005" description="" source="" longitude="-46.66035209" author="" copyright="" comment="" nodeid="node15" datetime="2026:03:19 20:41:55" heading="-34.1813" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="6.07303" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-192.381" tilt="0" url="{node14}"/>
+      <hotspot distance="5.82314" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-112.682" tilt="0" url="{node16}"/>
+      <hotspot distance="5.33517" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point03" pan="-43.77" tilt="0" url="{node17}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node16">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node16" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-22.7097" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-22.7097">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:41:56" source="" info="" latitude="-23.57343961" comment="" heading="-22.7097" author="" nodeid="node16" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66029610"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node15}" pan="78.7896" distance="5.82314" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node13}" pan="-180.959" distance="6.3642" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
-      <hotspot tilt="0" url="{node17}" pan="26.8924" distance="6.32588" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point03"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57343961" description="" source="" longitude="-46.66029610" author="" copyright="" comment="" nodeid="node16" datetime="2026:03:19 20:41:56" heading="-22.7097" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.82314" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="78.7896" tilt="0" url="{node15}"/>
+      <hotspot distance="6.3642" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-180.959" tilt="0" url="{node13}"/>
+      <hotspot distance="6.32588" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point03" pan="26.8924" tilt="0" url="{node17}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node17">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node17" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="0">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:40:36" source="" info="" latitude="-23.57340274" comment="" heading="0" author="" nodeid="node17" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66034337"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node16}" pan="-130.398" distance="6.32588" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node15}" pan="170.411" distance="5.33517" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
-      <hotspot tilt="0" url="{node19}" pan="1.09913" distance="5.36614" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point03"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57340274" description="" source="" longitude="-46.66034337" author="" copyright="" comment="" nodeid="node17" datetime="2026:03:19 20:40:36" heading="0" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="6.32588" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-130.398" tilt="0" url="{node16}"/>
+      <hotspot distance="5.33517" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="170.411" tilt="0" url="{node15}"/>
+      <hotspot distance="5.36614" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point03" pan="1.09913" tilt="0" url="{node19}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node18">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node18" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="0">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:40:36" source="" info="" latitude="-23.57339843" comment="" heading="0" author="" nodeid="node18" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66025151"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node20}" pan="40.4742" distance="5.21113" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57339843" description="" source="" longitude="-46.66025151" author="" copyright="" comment="" nodeid="node18" datetime="2026:03:19 20:40:36" heading="0" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.21113" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="40.4742" tilt="0" url="{node20}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node19">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node19" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-298.441" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-298.441">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:40:22" source="" info="" latitude="-23.57335449" comment="" heading="-298.441" author="" nodeid="node19" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66034438"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node17}" pan="-477.342" distance="5.36614" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node20}" pan="-397.059" distance="6.15178" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57335449" description="" source="" longitude="-46.66034438" author="" copyright="" comment="" nodeid="node19" datetime="2026:03:19 20:40:22" heading="-298.441" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="5.36614" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-477.342" tilt="0" url="{node17}"/>
+      <hotspot distance="6.15178" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-397.059" tilt="0" url="{node20}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
-  <panorama id="node20">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2000" levelbias="0.400" height="2000" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
-      <level predecode="0" preload="0" width="2000" height="2000"/>
-      <level predecode="0" preload="0" width="1000" height="1000"/>
-      <level predecode="1" preload="1" width="500" height="500"/>
+  <panorama id="node20" hideabout="1">
+    <input height="2000" width="2000" levelbias="0.400" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-174.991" fovmode="2">
-      <start tilt="0" fov="130" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fov="140" fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view fovmode="2" pannorth="-174.991">
+      <start projection="4" pan="0" fov="130" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="140" tilt="90" scaletofit="1" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata copyright="" datetime="2026:03:19 20:40:22" source="" info="" latitude="-23.57336278" comment="" heading="-174.991" author="" nodeid="node20" customnodeid="" tags="ofii" description="" title="Pigot Poker Club" longitude="-46.66028470"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label background="1" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" width="180" height="20" border="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" url="{node19}" pan="-93.6089" distance="6.15178" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point01"/>
-      <hotspot tilt="0" url="{node18}" pan="-314.517" distance="5.21113" target="$fwd" skinid="ht_node" description="" title="Pigot Poker Club" id="Point02"/>
+    <userdata title="Pigot Poker Club" info="" tags="ofii" latitude="-23.57336278" description="" source="" longitude="-46.66028470" author="" copyright="" comment="" nodeid="node20" datetime="2026:03:19 20:40:22" heading="-174.991" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label height="20" width="180" background="1" borderalpha="1" border="1" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot distance="6.15178" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point01" pan="-93.6089" tilt="0" url="{node19}"/>
+      <hotspot distance="5.21113" title="Pigot Poker Club" description="" skinid="ht_node" target="$fwd" id="Point02" pan="-314.517" tilt="0" url="{node18}"/>
     </hotspots>
-    <media/>
-    <transition softedge="0" blendtime="0.5" zoomfov="40" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomin="7" zoomspeed="2" enabled="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+    <media>
+      <sound startmutedmobile="0" loop="1" ambientlevel="0.000" mode="0" nodechangekeep="1" pansize="10.000" field="90.000" id="_background" level="1.000" pan="-1.000" tiltsize="10.000" tilt="-1.000">
+        <source mono="0" url="media/narra��o.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" softedge="0" delay="none" zoomfov="40" zoomoutpause="1" zoomout="0" zoomin="7" blendtime="0.5" zoomspeed="2" enabled="1" type="mesh"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" invertwheel="0" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedwheel="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" contextvr="1" rubberband="0" lockedmouse="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" simulatemass="1" lockedkeyboard="0" speedwheel="1" sensitivity="8" contextfullscreen="1" hideabout="1" lockedmouse="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" tags="" comment="" description="" author="" title=""/>
+    <userdata author="" title="" copyright="" comment="" tags="" description=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
