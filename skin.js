@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.11/21010
 // Filename: Pigot Poker Club.ggsk
-// Generated 2026-03-20T14:48:28
+// Generated 2026-03-20T15:08:33
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_thumbnails', 2, false, { ignoreInState: 0  });
@@ -1651,10 +1651,10 @@ function pano2vrSkin(player,base) {
 		me._thumbnail_menu_code.ggUpdatePosition=function (useTransition) {
 		}
 		me.divSkin.appendChild(me._thumbnail_menu_code);
-		el=me._image_1=document.createElement('div');
-		els=me._image_1__img=document.createElement('img');
-		els.className='ggskin ggskin_image_1';
-		hs=basePath + 'images/image_1.png';
+		el=me._ouvir=document.createElement('div');
+		els=me._ouvir__img=document.createElement('img');
+		els.className='ggskin ggskin_ouvir';
+		hs=basePath + 'images/ouvir.png';
 		els.setAttribute('src',hs);
 		els.ggNormalSrc=hs;
 		hs ='';
@@ -1665,7 +1665,7 @@ function pano2vrSkin(player,base) {
 		player.checkLoaded.push(els);
 		el.appendChild(els);
 		el.ggSubElement = els;
-		el.ggId="Image 1";
+		el.ggId="OUVIR";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_image ";
@@ -1674,24 +1674,77 @@ function pano2vrSkin(player,base) {
 		hs+='height : 40px;';
 		hs+='position : absolute;';
 		hs+='right : 5px;';
-		hs+='top : 0px;';
+		hs+='top : 5px;';
 		hs+='visibility : inherit;';
 		hs+='width : 40px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me._image_1.ggIsActive=function() {
+		me._ouvir.ggIsActive=function() {
 			return false;
 		}
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
-		me._image_1.onclick=function (e) {
+		me._ouvir.onclick=function (e) {
+				player.playPauseSound("_background","1");
+			me._ouvir.style.transition='none';
+			me._ouvir.style.visibility='hidden';
+			me._ouvir.ggVisible=false;
+			me._mutar.style.transition='none';
+			me._mutar.style.visibility=(Number(me._mutar.style.opacity)>0||!me._mutar.style.opacity)?'inherit':'hidden';
+			me._mutar.ggVisible=true;
+		}
+		me._ouvir.ggUpdatePosition=function (useTransition) {
+		}
+		me.divSkin.appendChild(me._ouvir);
+		el=me._mutar=document.createElement('div');
+		els=me._mutar__img=document.createElement('img');
+		els.className='ggskin ggskin_mutar';
+		hs=basePath + 'images/mutar.png';
+		els.setAttribute('src',hs);
+		els.ggNormalSrc=hs;
+		hs ='';
+		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
+		els.setAttribute('style', hs);
+		els.className='ggskin ggskin_image';
+		els['ondragstart']=function() { return false; };
+		player.checkLoaded.push(els);
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="MUTAR";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_image ";
+		el.ggType='image';
+		hs ='';
+		hs+='height : 40px;';
+		hs+='position : absolute;';
+		hs+='right : 5px;';
+		hs+='top : 5px;';
+		hs+='visibility : inherit;';
+		hs+='width : 40px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._mutar.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._mutar.onclick=function (e) {
 				player.pauseSound("_main");
+			me._mutar.style.transition='none';
+			me._mutar.style.visibility='hidden';
+			me._mutar.ggVisible=false;
+			me._ouvir.style.transition='none';
+			me._ouvir.style.visibility=(Number(me._ouvir.style.opacity)>0||!me._ouvir.style.opacity)?'inherit':'hidden';
+			me._ouvir.ggVisible=true;
 		}
-		me._image_1.ggUpdatePosition=function (useTransition) {
+		me._mutar.ggUpdatePosition=function (useTransition) {
 		}
-		me.divSkin.appendChild(me._image_1);
+		me.divSkin.appendChild(me._mutar);
 		me._thumbnails_toggle.logicBlock_visible();
 		me._thumbnails_toggle.logicBlock_backgroundcolor();
 		me.elementMouseOver['thumbnails_toggle']=false;
